@@ -15,6 +15,8 @@ enum Resources {
         static var background = UIColor(hexString: "#F8F9F9")
         static var separator = UIColor(hexString: "#E8ECEF")
         static var titleGray = UIColor(hexString: "#545C77")
+        
+        static var secondary = UIColor(hexString: "#F0F3FF")
     }
     
     enum Strings {
@@ -24,6 +26,7 @@ enum Resources {
             static var progress = "Progress"
             static var settings = "Settings"
         }
+        
     }
     
     enum Images {
@@ -33,11 +36,19 @@ enum Resources {
             static var progress = UIImage(named: "progress_tab")
             static var settings = UIImage(named: "settings_tab")
         }
+        
+        enum Common {
+            static var downArrow = UIImage(named: "down_arrow")
+        }
     }
     
     enum Fonts {
         static func helvericareRegular(with size: CGFloat) -> UIFont {
             UIFont(name: "Helvetica", size: size) ?? UIFont()
         }
+    }
+    
+    enum Overview {
+        static var allWorkoutsButton = "All Workouts"
     }
 }
