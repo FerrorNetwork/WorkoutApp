@@ -21,12 +21,13 @@
 		1837422F2930BE5B006288AD /* SessionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1837422E2930BE5B006288AD /* SessionController.swift */; };
 		183742312930BE8E006288AD /* ProgressController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183742302930BE8E006288AD /* ProgressController.swift */; };
 		183742332930BEBE006288AD /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183742322930BEBE006288AD /* SettingsController.swift */; };
-		183742362930C64C006288AD /* SecondaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183742352930C64C006288AD /* SecondaryButton.swift */; };
+		183742362930C64C006288AD /* WAButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183742352930C64C006288AD /* WAButton.swift */; };
 		1837423829322AB2006288AD /* OverviewNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1837423729322AB2006288AD /* OverviewNavBar.swift */; };
 		1837423A29322AEE006288AD /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1837423929322AEE006288AD /* BaseView.swift */; };
 		1837423D293271DD006288AD /* WeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1837423C293271DD006288AD /* WeekView.swift */; };
 		1837423F293277C2006288AD /* WeekdayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1837423E293277C2006288AD /* WeekdayView.swift */; };
 		1837424129328118006288AD /* Date + ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1837424029328118006288AD /* Date + ext.swift */; };
+		18374244293323BB006288AD /* WABaseInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18374243293323BB006288AD /* WABaseInfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,12 +47,13 @@
 		1837422E2930BE5B006288AD /* SessionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionController.swift; sourceTree = "<group>"; };
 		183742302930BE8E006288AD /* ProgressController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressController.swift; sourceTree = "<group>"; };
 		183742322930BEBE006288AD /* SettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
-		183742352930C64C006288AD /* SecondaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryButton.swift; sourceTree = "<group>"; };
+		183742352930C64C006288AD /* WAButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WAButton.swift; sourceTree = "<group>"; };
 		1837423729322AB2006288AD /* OverviewNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewNavBar.swift; sourceTree = "<group>"; };
 		1837423929322AEE006288AD /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
 		1837423C293271DD006288AD /* WeekView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekView.swift; sourceTree = "<group>"; };
 		1837423E293277C2006288AD /* WeekdayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekdayView.swift; sourceTree = "<group>"; };
 		1837424029328118006288AD /* Date + ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date + ext.swift"; sourceTree = "<group>"; };
+		18374243293323BB006288AD /* WABaseInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WABaseInfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,10 +147,12 @@
 		183742292930BDFE006288AD /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				18374242293323A3006288AD /* Views */,
 				1837421A292DF1CA006288AD /* TabBarController.swift */,
 				183742222930B972006288AD /* NavBarController.swift */,
 				183742252930BB4E006288AD /* BaseController.swift */,
 				1837423929322AEE006288AD /* BaseView.swift */,
+				183742352930C64C006288AD /* WAButton.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -190,7 +194,6 @@
 			isa = PBXGroup;
 			children = (
 				1837423B293271BF006288AD /* WeekView */,
-				183742352930C64C006288AD /* SecondaryButton.swift */,
 				1837423729322AB2006288AD /* OverviewNavBar.swift */,
 			);
 			name = Views;
@@ -203,6 +206,14 @@
 				1837423E293277C2006288AD /* WeekdayView.swift */,
 			);
 			name = WeekView;
+			sourceTree = "<group>";
+		};
+		18374242293323A3006288AD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				18374243293323BB006288AD /* WABaseInfoView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -284,7 +295,8 @@
 				1837421B292DF1CA006288AD /* TabBarController.swift in Sources */,
 				18374205292DEFE8006288AD /* AppDelegate.swift in Sources */,
 				1837422F2930BE5B006288AD /* SessionController.swift in Sources */,
-				183742362930C64C006288AD /* SecondaryButton.swift in Sources */,
+				18374244293323BB006288AD /* WABaseInfoView.swift in Sources */,
+				183742362930C64C006288AD /* WAButton.swift in Sources */,
 				183742312930BE8E006288AD /* ProgressController.swift in Sources */,
 				183742232930B972006288AD /* NavBarController.swift in Sources */,
 				1837421E292DF282006288AD /* UIColor + ext.swift in Sources */,
