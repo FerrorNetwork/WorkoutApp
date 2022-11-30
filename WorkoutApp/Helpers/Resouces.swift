@@ -27,6 +27,18 @@ enum Resources {
             static var settings = "Settings"
         }
         
+        enum Session {
+            static let navBarStart = "Start"
+            static let navBarPause = "Pause"
+            static let navBarFinish = "Finish"
+            
+            static let elapsedTime = "Elapsed Time"
+            static let remainengTime = "Remaining Time"
+            
+            static let completedPercent = "completed"
+            static let remainingPercent = "remaining"
+        }
+        
     }
     
     enum Images {
